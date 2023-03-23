@@ -1,6 +1,10 @@
 # Textbooks
 
-Here, I host my textbooks (typically in PDF format.) The main reason I host these on GitHub as opposed to WordPress (my [main website](https://riemannzeta5.com/) is hosted on WordPress) is that I plan to post initial chapters of these textbooks and then continuously update them (textbooks are very long-term projects!), and WordPress changes the file name everytime I re-upload it in order to reflect version history.
+Here, I host my textbooks (typically in PDF format):
+
+- [Intro to Abstract Algebra (In Progress)](https://riemannzeta5.github.io/textbooks/intro-abstract-algebra.pdf)
+
+The main reason I host these on GitHub as opposed to WordPress (my [main website](https://riemannzeta5.com/) is hosted on WordPress) is that I plan to post initial chapters of these textbooks and then continuously update them (textbooks are very long-term projects!), and WordPress changes the file name everytime I re-upload it in order to reflect version history.
 
 (WordPress' reason for doing this is a very good one: it wants to make sure that people don't accidentally overwrite content when reuploading, and it wants to make sure that linked-to content is stable. If you host a PDF on WordPress named `file.pdf`, then someone links to it, but you reupload `file.pdf`, then if the content of `file.pdf` changed, the context in which that person linked to it may not make sense anymore. Thus, WordPress would automatically rename the reuploaded file as `file (1).pdf`. However, because I *want* to update these files continuously, in my case that's not what I want.)
 
