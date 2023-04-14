@@ -1,19 +1,17 @@
 # Textbooks
 
-Here, I host my textbooks (typically in PDF format):
+Here, I host my textbooks / longer expository series:
 
 - [Intro to Abstract Algebra (In Progress)](https://riemannzeta5.github.io/textbooks/intro-abstract-algebra.pdf)
 
-The main reason I host these on GitHub as opposed to WordPress (my [main website](https://riemannzeta5.com/) is hosted on WordPress) is that I plan to post initial chapters of these textbooks and then continuously update them (textbooks are very long-term projects!), and WordPress changes the file name everytime I re-upload it in order to reflect version history.
+## Hosting on GitHub vs WordPress
+
+The main reason I host these on GitHub as opposed to WordPress (my [main website](https://riemannzeta5.com/) is hosted on WordPress) is that I plan to post initial chapters of these textbooks and then continuously update them (textbooks are very long-term projects!), and in the course of doing so, if I wanted to change the organization of the material (like the section headers and such), then that could get cumbersome with WordPress. (There, changing the organization could entail changing previous post titles, which would break many blog features like new-content notifications for followers and auto-shares for people following my blog on other platforms.) In fact, I have already found myself wanting to change the organization in the course of writing some of the material above.
+
+By contrast, my WordPress blog is great for topics that are better suited to "continuous discussion," like my learning chronicle, or in general, anything where it makes sense to have an "EDIT: this is what I've learned now" or "EDIT: this is what I think now" tag and continue on. For expository material, that wouldn't work as well.
+
+One typical way I could organize my expository series material, so that I could change the organization later on, would be as a PDF (as is often the format for many online math textbooks and notes.) However, hosting such a PDF (or any other "media" file) on WordPress wouldn't work for me either, since WordPress changes the file name everytime I re-upload it in order to reflect version history.
 
 (WordPress' reason for doing this is a very good one: it wants to make sure that people don't accidentally overwrite content when reuploading, and it wants to make sure that linked-to content is stable. If you host a PDF on WordPress named `file.pdf`, then someone links to it, but you reupload `file.pdf`, then if the content of `file.pdf` changed, the context in which that person linked to it may not make sense anymore. Thus, WordPress would automatically rename the reuploaded file as `file (1).pdf`. However, because I *want* to update these files continuously, in my case that's not what I want.)
 
-## Textbooks vs Post Series
-
-I initially contemplated publishing some of this expository material as post series on my WordPress site/blog instead of as textbook-style PDFs. These were the aspects I considered:
-
-- Series Interweaving: Initially, I had "Previous" and "Next" buttons on my website that would lead to my previous or next published post across all categories and series, not just the previous or next in the series. Defining a new WordPress category for a series wouldn't be enough to change this either. A typical approach to address this is to use WordPress pages as opposed to posts; however, I wanted all my content to show up on the Reader if someone discovered me through that, and I wanted my followers to get updates on all my content, which would only happen with posts. Ultimately, I resolved this by making the Previous/Next buttons go away with custom CSS (which I discuss more on my website.) Thus, this became a moot point.
-- Search: I have a search bar on my website (automatically provided by WordPress), but it goes through all my content on there, not just a particular series. But ultimately, I decided this wasn't a good enough reason to not publish on my website, where I could have all my expository material under one roof (in the "Expository" posts category.)
-- Content Organization: Posts don't keep track of chapters/sections/etc, even if I publish a series of them. However, I could remedy this by naming a post something like "Title 2.1", or in general "Title chapter_name.section_name." But then, another point arises: if I wanted to change the chapter/section organization of the material, I couldn't do it on WordPress without breaking URL links (which I definitely did not want to do.)
-
-Ultimately, content organization is the reason I decided to publish the material here separately. As a result, I'm posting on my website for more "stream of consciousness" stuff, where I can update things as I go along based on new information that I learn just by adding "EDIT" tags (like for my "learning math and science" explorations.) However, for chapter-section organized expository content, I'm choosing the textbook-style PDF format instead.
+As a result, I've settled on hosting textbooks and longer expository series here, on GitHub.
