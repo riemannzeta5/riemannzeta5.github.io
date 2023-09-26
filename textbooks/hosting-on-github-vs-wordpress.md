@@ -1,4 +1,4 @@
-# Hosting on GitHub vs WordPress
+# Textbooks: Hosting on GitHub vs WordPress
 
 The main reason I host my textbooks here on GitHub as opposed to on WordPress (my [main website](https://riemannzeta5.com/) is hosted on WordPress) is that I plan to post initial chapters of these textbooks and then continuously update them (textbooks are very long-term projects!), and in the course of doing so, if I want to change the organization of the material (like the section headers and such), then that could get cumbersome with WordPress. (There, changing the organization could entail changing previous post titles, which would break many blog features like new-content notifications for followers and auto-shares for people following my blog on other platforms.)
 
