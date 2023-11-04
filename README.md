@@ -1,8 +1,8 @@
 # riemannzeta5.github.io
 
-This is the repo for a site hosts some of my non-WordPress content. This would include for example games (dynamic / JavaScript apps), media files, and so on.
+This is the repo for a site that hosts some of my non-WordPress content. This would include for example games (dynamic / JavaScript apps), media files, and so on.
 
-Right now, this site isn't accessible, as it just hosts some media files that I link to from my WordPress site.
+Right now, this site doesn't have a homepage, as it just hosts content that I link to individually from my WordPress site.
 
 ## General Pointers
 
